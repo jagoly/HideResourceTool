@@ -37,6 +37,7 @@ for _, resource in pairs(data.raw["resource"]) do
             },
         },
         map_color = resource.map_color,
+        factoriopedia_alternative = resource.name,
         hidden = true,
         hidden_in_factoriopedia = true,
     }
