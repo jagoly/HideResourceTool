@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2025-02-27
+  Changes:
+    - Opening a hidden resource in factoriopedia now opens the page for the original entity.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2025-02-27
   Features:
