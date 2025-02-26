@@ -1,0 +1,12 @@
+{
+    "name": "HideResourceTool",
+    "version": "0.1.0",
+    "title": "Hide Resource Tool",
+    "author": "jagoly",
+    "factorio_version": "2.0",
+    "description": "Hide ore for a clean factory, without deleting it.",
+    "dependencies": [
+        "base",
+        "? pypostprocessing"
+    ]
+}
