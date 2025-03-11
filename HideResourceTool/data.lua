@@ -15,6 +15,8 @@ data:extend({
             entity_filters = {}, -- populated in data-final-fixes.lua
             entity_filter_mode = "whitelist",
             border_color = { r = 1, g = 0, b = 0 },
+            started_sound = { filename = "__core__/sound/deconstruct-select-start.ogg" },
+            ended_sound = { filename = "__core__/sound/deconstruct-select-end.ogg" },
         },
         alt_select = {
             mode = "any-entity",
@@ -22,7 +24,9 @@ data:extend({
             entity_filters = {}, -- populated in data-final-fixes.lua
             entity_filter_mode = "whitelist",
             border_color = { r = 0, g = 1, b = 0 },
-        }
+            started_sound = { filename = "__core__/sound/deconstruct-cancel-start.ogg" },
+            ended_sound = { filename = "__core__/sound/deconstruct-cancel-end.ogg" },
+        },
     },
     {
         type = "shortcut",
@@ -35,5 +39,5 @@ data:extend({
         small_icon = "__HideResourceTool__/graphics/shortcut-x24.png",
         small_icon_size = 24,
         item_to_spawn = "hide-resource-tool",
-    }
+    },
 })
