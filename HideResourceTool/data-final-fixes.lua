@@ -15,6 +15,7 @@ for _, resource in pairs(data.raw["resource"]) do
         name = "hrt-" .. resource.name,
         localised_name = resource.localised_name or { "entity-name." .. resource.name },
         icon = resource.icon,
+        icons = resource.icons,
         icon_size = resource.icon_size,
         flags = { "placeable-neutral" },
         minable = {
